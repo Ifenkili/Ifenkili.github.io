@@ -1,0 +1,83 @@
+a {
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 90px;
+    animation-duration: 3s;
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+#getapiclogo {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 200px;
+}
+
+#HeadingArea {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#HeadingSearch {
+    display: inline-block;
+    position: center;
+    margin: 0 0 0 0;
+}
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type='submit'] {
+    color: white;
+}
+
+input[type='search'] {
+    text-align: center;
+}
+
+button {
+    border-color: rgb(255, 255, 242);
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: rgb(0, 100, 100);
+    background-color: ivory;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    font-weight: bold;
+}
+
+.navbar-item {
+    color: ivory;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.picturesource {
+    float: right;
+    padding-top: 220px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+}
