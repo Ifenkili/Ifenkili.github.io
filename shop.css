@@ -1,0 +1,51 @@
+h1{
+  vertical-align: middle;
+  }
+
+img{
+  transition: transform .2s;
+  width: 250px;
+  height: 180px;
+  margin: 40px 0px 0px 0px;
+  border: 7px solid grey;
+  box-shadow: -5px 0 5px white, 0 5px 5px white, 5px 0 5px white, 0 -5px 5px white;
+  vertical-align: middle;
+  }
+img:hover{
+    transform: scale(1.5);
+    }
+.img-fluid{
+  border-radius: 10px
+  }
+#Shopname{
+  text-align: center;
+  margin-left: 40px;
+  margin-right:40px; 
+  border: 0;
+  background-color: rgb(220, 220, 220);
+  margin-top: 60px;
+}
+#textblock{
+  text-align: center;
+  color: maroon;
+  background-color: rgb(255,0,0);
+  }
+.navbar{
+position: fixed; top: 0;
+font-weight: bold;
+float:left;
+}
+.navbar-item{
+  color: ivory;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  }
+footer{
+color: grey;
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+font-size: 12px;
+font-style: normal;
+}
