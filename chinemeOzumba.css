@@ -2,7 +2,6 @@
     body {
         background: #f9f9f9;
         animation: mymove 30s infinite;
-        font-family: cursive;
         align-items: center;
         flex-direction: unset;
         text-align: center;
@@ -23,6 +22,7 @@
 
     header {
        align-content: center;
+         font-family: cursive;
     }
     img {
         margin: 40px 0px 0px 0px;
@@ -42,6 +42,7 @@
 
     #title2 {
         color: gray;
+         font-family: cursive;
         font-weight: lighter;
         font-size: 35px;
         font-stretch: extra-expanded;
@@ -64,6 +65,7 @@
 
     #statement {
         color: darkgray;
+         font-family: cursive;
         font-size: 20px;
         text-shadow: -0 .5px rgb(25, 25, 44), 0 .5px rgb(25, 25, 44), 0 .5px 0 rgb(25, 25, 44), 0 -.5px rgb(25, 25, 44); 
     }
@@ -75,14 +77,12 @@
 
     #slogan {
         color: rgb(25, 25, 44);
+         font-family: cursive;
         text-shadow: 0.5px 0 rgb(200, 200, 200), 0 0.5px rgb(200, 200, 200), 0.5px 0 rgb(200, 200, 200), 0 -0.5px rgb(200, 200, 200);
         font-size: 30px;
         font-weight: lighter;
         font-style: italic; 
         
-    }
-    #acknowledgements {
-        font-size: 16px;
     }
 
     footer {
@@ -101,106 +101,23 @@
         text-decoration: none;
     }
 
-   /* @media screen and  (max-width: 750px) {
-        body{
+    @media screen and  (max-width: 750px) {
             
-        }
-        header{
-            
-        }
-    
-              
-           
-        
-    
-        .title {
-            width: 40%;
-            height: 150px;
-            align-content: center;
-          
-            
-        }
-    
-        #title1 {
-            color: rgb(25, 25, 44);
-            font-family: cursive;
-            font-weight: bolder;
-            font-size: 60px;
-            line-height: 1;
-            text-shadow: -1px 0 rgb(200, 200, 200), 0 1px rgb(200, 200, 200), 1px 0 rgb(200, 200, 200), 0 -1px rgb(200, 200, 200);
-            margin-top: 170px;
-            margin-bottom: 0px;
-            margin-left: -115px;
-            width: 300px;
-           
-        }
-    
-        #title2 {
-            color: gray;
-            font-weight: lighter;
-            font-size: 23px;
-            text-shadow: -0 .5px 0 rgb(200, 200, 200), 0 .5px rgb(200, 200, 200), .5px 0 rgb(200, 200, 200), 0 -.5px rgb(200, 200, 200);
-            text-align: center;
-            margin-top: 0px;
-            margin-left: -115px;
-            margin-right: 0px;
-            width: 300px;
-            
-        }
-    
-        img {
-            padding-bottom: -20px;
-            margin-bottom: -10px;
-        }
     
         #statement {
-            color: darkgray;
-            font-size: 20px;
-            text-shadow: -0 .5px rgb(25, 25, 44), 0 .5px rgb(25, 25, 44), 0 .5px 0 rgb(25, 25, 44), 0 -.5px rgb(25, 25, 44);
-            text-align: justify;
-            margin-right: 0px;
-            margin-left: 125px;
-            padding-top:600px;
-            margin-top: 610px;
             
-            width:300px;
-            
+            font-family: sans-serif;
+            font-size: 25px;
            
         }
     
         #slogan {
-            color: rgb(25, 25, 44);
-            text-shadow: 0.5px 0 rgb(200, 200, 200), 0 0.5px rgb(200, 200, 200), 0.5px 0 rgb(200, 200, 200), 0 -0.5px rgb(200, 200, 200);
-            font-size: 30px;
-            font-weight: lighter;
-            font-style: italic;
-            text-align: center;
-           margin-left: 125px;
-           padding:0px;
-            width:300px;
-          
-        }
-        #acknowledgements {
-            font-size: 12px;
+            font-family: sans-serif;
+            font-style: italic;        
         }
     
-        footer {
-            background-image: url('stars.png');
-            color: rgb(25, 25, 44);
-            font-family: sans-serif;
-            text-shadow: -0 .5px 0 rgb(100, 100, 100), 0 .5px rgb(100, 100, 100), .5px 0 rgb(100, 100, 100), 0 -.5px rgb(100, 100, 100);
-            text-align: center;
-            padding:0px;
-            margin-left: 60px;
-            padding-left: 40px;
-            width: 400px;
+        
            
             
-        }
-        section {
-            display: block;
-            padding: 20px;
-            margin: 20px;
-        }
-            
+       
             
