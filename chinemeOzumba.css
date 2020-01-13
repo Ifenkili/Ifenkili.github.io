@@ -74,10 +74,7 @@
         font-size: 20px;
         text-shadow: -0 .5px rgb(25, 25, 44), 0 .5px rgb(25, 25, 44), 0 .5px 0 rgb(25, 25, 44), 0 -.5px rgb(25, 25, 44); 
     }
-#email{
-     font-family: cursive;
-     font-size:30px;
-    }
+
 
     #slogan {
         color: rgb(25, 25, 44);
@@ -100,6 +97,8 @@
 
     a {
         color: rgb(67, 140, 223);
+        font-family: cursive;
+        font-size: 30px;
         text-shadow: -0 .5px 0 rgb(100, 100, 100), 0 .5px rgb(100, 100, 100), .5px 0 rgb(100, 100, 100), 0 -.5px rgb(100, 100, 100);
         text-decoration: none;
     }
@@ -113,13 +112,15 @@
             font-size: 25px;
            
         }
-        #email {
-            font-family: sans-serif;
-        }
+              
+        
         #slogan {
             color: rgba(248, 133, 148, 0.322);
             font-family: cursive;
                  
+        }
+          a{
+            font-family: sans-serif;
         }
     
         
