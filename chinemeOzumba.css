@@ -1,7 +1,7 @@
 
     body {
         background: #f9f9f9;
-        animation: mymove 30s infinite;
+        animation: mymove 15s infinite;
         align-items: center;
         flex-direction: unset;
         text-align: center;
@@ -22,7 +22,7 @@
 
     header {
        align-content: center;
-         font-family: cursive;
+         font-family: 'Freight text', sans-serif;
     }
     img {
         margin: 40px 0px 0px 0px;
@@ -42,7 +42,7 @@
 
     #title2 {
         color: gray;
-         font-family: cursive;
+         font-family: sans-serif;
         font-weight: lighter;
         font-size: 35px;
         font-stretch: extra-expanded;
@@ -65,7 +65,7 @@
 
     #statement {
         color: darkgray;
-         font-family: cursive;
+         font-family: sans-serif;
         font-size: 20px;
         text-shadow: -0 .5px rgb(25, 25, 44), 0 .5px rgb(25, 25, 44), 0 .5px 0 rgb(25, 25, 44), 0 -.5px rgb(25, 25, 44); 
     }
@@ -78,7 +78,7 @@
 
     #slogan {
         color: rgb(25, 25, 44);
-         font-family: cursive;
+         font-family: sans-serif;
         text-shadow: 0.5px 0 rgb(200, 200, 200), 0 0.5px rgb(200, 200, 200), 0.5px 0 rgb(200, 200, 200), 0 -0.5px rgb(200, 200, 200);
         font-size: 30px;
         font-weight: lighter;
@@ -97,7 +97,7 @@
 
     a {
         color: rgb(67, 140, 223);
-        font-family: cursive;
+        font-family: sans-serif;
         font-size: 30px;
         text-shadow: -0 .5px 0 rgb(100, 100, 100), 0 .5px rgb(100, 100, 100), .5px 0 rgb(100, 100, 100), 0 -.5px rgb(100, 100, 100);
         text-decoration: none;
@@ -116,7 +116,7 @@
         
         #slogan {
             color: rgba(248, 133, 148, 0.322);
-            font-family: cursive;
+            font-family: sans-serif;
                  
         }
           a{
