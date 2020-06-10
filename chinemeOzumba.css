@@ -1,127 +1,124 @@
 
     body {
-        background: #f9f9f9;
-        animation: mymove 15s infinite;
-        align-items: center;
-        flex-direction: unset;
-        text-align: center;
+        background:url('background2.png');
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+        color: white; 
+        align-items:left ;
+        flex-direction: row;
+        text-align: left;
+    }
+    #writing{
+        text-align: left;
+        float: left;
+        margin-left: 50px;
+        margin-right: 0px;
+        padding-right: 30px ;
+        padding-left: 30px;
+        padding-top: 20px;
+        /*background: #3b3b3b;*/
+
     }
 
-    @keyframes mymove {
-        50% {
-            background-color: rgb(25, 25, 44);
-        }
-    }
 
-    main {
-        background: url('stars.png');
-       
-        background-position: center;
-        
-    }
-
-    header {
-       align-content: center;
-         font-family: 'Freight text', sans-serif;
-    }
-    img {
-        margin: 40px 0px 0px 0px;
-        border: 2px solid whitesmoke;
-        border-radius: 500px;
-    }
-
-    #title1 {
-        color: rgba(248, 133, 148, 0.322);
-        font-family: cursive;
-        font-weight: bolder;
+    h1 {
+        font-weight: lighter ;
         font-size: 100px;
         line-height: 1;
-        text-shadow: -1px 0 rgb(200, 200, 200), 0 1px rgb(200, 200, 200), 1px 0 rgb(200, 200, 200), 0 -1px rgb(200, 200, 200);
-        margin:0px;
-    }
-
-    #title2 {
-        color: gray;
-         font-family: sans-serif;
-        font-weight: lighter;
-        font-size: 35px;
-        font-stretch: extra-expanded;
-        text-shadow: -0 .5px 0 rgb(200, 200, 200), 0 .5px rgb(200, 200, 200), .5px 0 rgb(200, 200, 200), 0 -.5px rgb(200, 200, 200);
-        margin:0px;
-    }
-    .profile
-    {
-        font-family: sans-serif; 
-    }
-
-    #icon{
-        margin: 0px 0px 0px 0px;
-        border: none;
-      padding: 0px;
-        height: 30px;;
+        text-align: left;
+        margin-bottom: 0px;
         
-   
     }
 
-    #statement {
-        color: darkgray;
-         font-family: sans-serif;
-        font-size: 20px;
-        text-shadow: -0 .5px rgb(25, 25, 44), 0 .5px rgb(25, 25, 44), 0 .5px 0 rgb(25, 25, 44), 0 -.5px rgb(25, 25, 44); 
-    }
-    #profile{ 
-        color: darkgray;
-        font-size: 20px;
-        text-shadow: -0 .5px rgb(25, 25, 44), 0 .5px rgb(25, 25, 44), 0 .5px 0 rgb(25, 25, 44), 0 -.5px rgb(25, 25, 44); 
-    }
-
-
-    #slogan {
-        color: rgb(25, 25, 44);
-         font-family: sans-serif;
-        text-shadow: 0.5px 0 rgb(200, 200, 200), 0 0.5px rgb(200, 200, 200), 0.5px 0 rgb(200, 200, 200), 0 -0.5px rgb(200, 200, 200);
-        font-size: 30px;
+    h4 {        
         font-weight: lighter;
-        font-style: italic;  
+        font-size: 25px;
+        font-stretch: semi-expanded ;
+        margin-top: 0px;
+        padding-left: 8px;
+        margin-bottom: -30px;
+        padding-bottom: 10px;
     }
 
-    footer {
-        background-image: url('stars.png');
+    p{
+        padding-left: 8px; 
+        font-family: 'Roboto' sans-serif;
+        font-size: 24px;
+        font-weight: lighter;
+        line-height: 1.5;
+    }
+    .links{
+        margin-bottom: 50px;
+    }
+    .social {
+        color: rgb(75, 249, 255);
+        font-size: 23px; 
+        padding-left: 2px; 
+        margin-top:0px; 
+        padding-top:0px;
+        margin-bottom: 30px;
+        font-weight: 300;
+        font-stretch: extra-expanded;     
+    }
+
+ 
+    #me{
+        margin-left: 0px;
+    }
+
+    /*#fixed-bottom{
+       
         color: grey;
-        font-family: sans-serif;
-        font-size: 14px;
-        text-shadow: -0 .5px 0 silver, 0 .5px silver, .5px 0 silver, 0 -.5px silver;
+        font-size: 12px;
         text-align: center;
-        padding: 20px;
+        padding-left: 30px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }*/
+    #email{
+        color: rgb(75, 249, 255);
+        font-size: 23px; 
+        padding-left: 2px; 
+        font-weight: 300;
+        font-stretch: extra-expanded;  
     }
-
-    a {
-        color: rgb(67, 140, 223);
-        font-family: sans-serif;
-        font-size: 30px;
-        text-shadow: -0 .5px 0 rgb(100, 100, 100), 0 .5px rgb(100, 100, 100), .5px 0 rgb(100, 100, 100), 0 -.5px rgb(100, 100, 100);
-        text-decoration: none;
-    }
+       
+    
 
     @media screen and  (max-width: 750px) {
-            
-    
-        #statement {
-            
-            font-family: sans-serif;
-            font-size: 25px;
-           
+        #writing{
+            text-align: left;
+            float: left;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-right: 30px ;
+            padding-left: 10px;
+            padding-top: 20px;
         }
-              
+        h1{
+            font-size: 50px;
+        }    
+    h4{
+font-size: 16px;
+margin-bottom: -20px;
+    }
+        p {
+            
+            font-size: 16px; 
+        }
+        .social{
+            font-size: 16px;
+            
+        margin-bottom: -20px;
+        }
+        #introduction1{
+            margin-top: -20px;
+            padding-top: 0px;
+        }
         
-        #slogan {
-            color: rgba(248, 133, 148, 0.322);
-            font-family: sans-serif;
-                 
-        }
-          a{
-            font-family: sans-serif;
-        }
+      
+
     
         
            
