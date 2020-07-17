@@ -197,161 +197,106 @@ color: #f7cec7;
       a:active {
         color: #BE997C;
       }
-     @media screen and  (max-width: 1440px){           
-        body {
-            position: relative;
-            width: 1440px;
-            height: 900px;
-            background: #fcfcff;
-            
-        } 
-        embed{
-           
-            float: right;
-            margin-top: 0px;
-            padding-top: 100px;
+  
+     #confirm .message {
+      font-family: 'Roboto' sans-serif;
+        text-align: center;
+        padding: 15px 10px 15px 10px;
+     }
+
+    @media screen and  (max-width: 750px) {
+        body{
+            background: #3b3b3b; 
+        }
+        #sec1{
+            flex-direction: row;
+            margin-top: 30px;
+            margin-bottom: 30px;    
+        }
+        #mobile-head-writing{
+            float: left;
             margin-right: 0px;
             padding-right: 0px;
+            padding-top: 30px;
+            padding-bottom:0px;
+            margin-bottom: 30px; 
+            padding-left:0px;
+            margin-left: 0px;
+        }
+
+        #mobile-head-pic{
+            float: left;
+            margin-left: 10px;
+            padding-left: 10px;
+            margin-right: 0px;
+            padding-right: 0px;
+            padding-top: 0px;
+            margin-top: 0px; 
+        }
+        embed{
+            visibility: visible;
+        }
+        #sec2{
+            margin-top: 0px;
+            padding-top: 0px;
+        
+        }
+        #writing{
+            text-align: justify;
+            float: left;
+            margin-left: 10px;
+            margin-right: 0px;
+            padding-right: 30px ;
+            padding-left: 10px;
+            /*padding-top: 20px;*/
+        }
+        #introduction1 br{
+            content: ' ';
+        }               
+        #introduction2 br{
+            content: ' ';
+        }
+        #introduction3 br{
+            content: ' ';
+        }
+        h1{
+            font-size: 50px;
+           margin-top: 0px;
+        }    
+    h4{
+        
+font-size: 16px;
+margin-bottom: -20px;
+    }
+        p {
+            font-size: 16px; 
+        }
+        .social{
             
-            padding-bottom: 0px;
-            height:820px;
-            width: 700px;
+            font-size: 16px;
+            
+        margin-bottom: -20px;
         }
-        h1 {
-            position: absolute;
-    width: 986px;
-    height: 104px;
-    left: 170px;
-    top: 0px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 100px;
-    line-height: 141px;
-    display: flex;
-    align-items: left;
-    font-feature-settings: 'kern' off;
-    
-    color: #2E3758;
+        #email{
+            font-size: 16px;
         }
-    
-        h4 { 
-            position: absolute;
-    width: 742px;
-    height: 53px;
-    left: 185px;
-    top: 130px;
-    
-    font-family: Roboto Mono;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 49px;
-    
-    color: #2E3758;
-    
-    
-    
-        }
-        #portfolio{
-            position: absolute;
-    width: 160px;
-    height: 55px;
-    left: 185px;
-    top: 250px;
-    
-    font-family: Roboto Mono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 42px;
-    text-decoration-line: underline;
-    
-    color: #9C4C52;
-    cursor: pointer;
-        }
-    #linkedin{
-        position: absolute;
-        width: 145px;
-        height: 55px;
-        left: 437px;
-        top: 250px;
-        
-        font-family: Roboto Mono;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 30px;
-        line-height: 42px;
-        text-decoration: underline;
-        
-        color: #9C4C52;
-        cursor: pointer;
-        
-    
-    }
-    #github{
-        position: absolute;
-    width: 110px;
-    height: 55px;
-    left: 674px;
-    top: 250px;
-    
-    font-family: Roboto Mono;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 42px;
-    text-decoration-line: underline;
-    
-    color: #9C4C52;
-    cursor: pointer;
-    
-    }
-    
         #introduction1{
-    position: absolute;
-    width: 883px;
-    height: 84px;
-    left: 185px;
-    top: 320px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 42px;
-    
-    color: #2E3758;
+            margin-top: -20px;
+            padding-top: 0px;
         }
-    
-        #introduction2{
-            position: absolute;
-    width: 843px;
-    height: 168px;
-    left: 185px;
-    top: 450px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 42px;
-    
-    color: #2E3758;
-        }
-    button{
-    position: absolute;
-    width: 250px;
-    height: 64px;
-    left: 185px;
-    top: 700px; 
-    color: #f7cec7;
-            background-color:  #2E3758;
-            display: inline-block;
-            border-radius: 5px;
-            padding: 5px;
-            text-align: center;
-            width: 210px;
-            cursor: pointer;
-    }
+         #confirm {
+        display: none;
+        background-color: #ffffff;
+        opacity: 0.6;
+        color:#3b3b3b;
+        border-radius: 5px;
+        position: fixed;
+        width: 200px;
+        left: 50%;
+        margin-left: 0px;
+        margin-top: -30px;
+        padding: 6px 8px 8px;
+        box-sizing: border-box;
+        text-align: center;
+     }
+      
