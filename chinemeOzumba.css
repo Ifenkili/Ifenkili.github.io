@@ -123,22 +123,19 @@
         height: 55px;
         left: 774px;
         top: 350px;
-
         font-family: Roboto Mono;
         font-style: normal;
         font-weight: normal;
         font-size: 36px;
         line-height: 42px;
         text-decoration-line: underline;
-
         color: #9C4C52;
         cursor: pointer;
-
     }
 
     #introduction1 {
         position: absolute;
-        width: 900px;
+        width: 920px;
         height: 84px;
         left: 210px;
         top: 430px;
@@ -148,7 +145,6 @@
         font-size: 36px;
         line-height: 42px;
         letter-spacing: 0.0125em;
-
         color: #2E3758;
     }
 
@@ -187,7 +183,7 @@
     }
 
     #email {
-        width: 260px;
+        width: 300px;
         height: 64px;
         color: #f7cec7;
         font-family: 'Roboto Mono', monospace;
