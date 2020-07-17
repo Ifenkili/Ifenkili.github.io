@@ -206,7 +206,7 @@ color: #f7cec7;
 
     @media screen and  (max-width: 750px) {
         body{
-            background: #3b3b3b; 
+             background: #fffadb;
         }
         #sec1{
             flex-direction: row;
@@ -260,12 +260,12 @@ color: #f7cec7;
             content: ' ';
         }
         h1{
-            font-size: 50px;
+            font-size: 90px;
            margin-top: 0px;
         }    
     h4{
         
-font-size: 16px;
+font-size: 40px;
 margin-bottom: -20px;
     }
         p {
